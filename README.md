@@ -99,7 +99,7 @@ npm install
 Create a `.env` file in the root directory:
 ```env
 DATABASE_URL="file:./dev.db"
-NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_URL="http://localhost:3001"
 NEXTAUTH_SECRET="your-super-secret-jwt-key"
 ```
 
@@ -115,7 +115,7 @@ node prisma/seed.js
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3001](http://localhost:3001) in your browser.
 
 ---
 
